@@ -1,0 +1,190 @@
+{
+    "common": {
+      "name": "Laturikortti",
+      "description": "Latauskortti mahdollistaa sinun sähköautolaturin (tai jonkun muun) ohjauksen.",
+      "version": "Versio",
+      "invalid_configuration": "Virheellinen määritystieto",
+      "show_warning": "Näytä varoitus",
+      "show_error": "Näytä virhe"
+    },
+    "error": {
+      "missing_entity": "Kohteen valitseminen vaaditaan!",
+      "not_available": "Ei saatavilla",
+      "missing_config": "Virhe määritystiedostossa!",
+      "missing_group": "Ei kohteita määritetty ryhmään!"
+    },
+    "states": {
+      "on" : "Päällä",
+      "off" : "Pois",
+      "unavailable" : "ei saatavilla"
+    },
+    "editor": {
+      "instruction": "Valitse sinun laturisi entiteetti ja tyyppi/merkki. Kortti yrittää automaattisesti tunnistaa muut sensorit. Jos sinulla on merkki, mitä ei tueta, voit valita «Muu» ja tehdä entiteettien määrityksen manuaalisesti. Jos joku epäonnistuu, varmista YAML konfiguraatiosi (paina «Näytä koodieditori»).",
+      "brand": "Merkki/pohja (Vaaditaan)",
+      "entity": "Pääentiteetti (Vaaditaan)",
+      "chargerImage": "Sisäänrakennetut kuvat ja värit",
+      "customImage": "Oma kuva (Vaihtoehtoinen - ylikirjoittaa sisäänrakennetun kuvan)",
+      "theme": "Väriteema",
+      "compact_view": "Kutistettu näkymä",
+      "compact_view_aria_label_on": "Kutistettu näkymä päälle",
+      "compact_view_aria_label_off": "Kutistettu näkymä pois",
+      "show_name": "Näytä nimi",
+      "show_name_aria_label_on": "Näytä nimi päälle",
+      "show_name_aria_label_off": "Näytä nimi pois",
+      "show_leds": "Näytä ledit",
+      "show_leds_aria_label_on": "Animoidut ledit (kuvalle kehys) päälle",
+      "show_leds_aria_label_off": "Animoidut ledit (kuvalle kehys) pois",
+      "show_status": "Näytä tila",
+      "show_status_aria_label_on": "Näytä tila päälle",
+      "show_status_aria_label_off": "Näytä tila pois",
+      "show_stats": "Näytä datataulukko (tilastot)",
+      "show_stats_aria_label_on": "Näytä datataulukko päälle",
+      "show_stats_aria_label_off": "Näytä datataulukko pois",
+      "show_collapsibles": "Näytä pienennettävät valikkopainikkeet",
+      "show_collapsibles_aria_label_on": "Näytä pienennettävät valikkopainikkeet päälle",
+      "show_collapsibles_aria_label_off": "Näytä pienennettävät valikkopainikkeet pois",
+      "show_toolbar": "Näytä työkaluvalikko",
+      "show_toolbar_aria_label_on": "Näytä työkaluvalikko päälle",
+      "show_toolbar_aria_label_off": "Näytä työkaluvalikko pois",
+      "code_only_note": "Huomaa: Edisteksyllinen konfiguraatio, kuten työkaluvalikko ja datataulukko (tilastot) ovat vain YAML-tilassa"
+    },
+  
+    "easee": {
+      "status" : {
+        "disconnected": "Ei yhdistetty",
+        "awaiting_start": "Pysäytetty/odottaa aloitusta",
+        "charging": "Ladataan",
+        "completed": "Ladattu/odotetaan autoa",
+        "error": "Virhe",
+        "ready_to_charge": "Valmis ladattavaksi"
+      },
+      "substatus" : {
+        "ok": "Ok",
+        "pending_schedule": "Odottaa ajastusta",
+        "none": "Ei mitään",
+        "max_circuit_current_too_low": "Piirin maksimivirta liian alhainen",
+        "max_dynamic_circuit_current_too_low": "Dynaamisen piirin maksimivirta liian alhainen",
+        "max_dynamic_charger_current_too_low": "Dynaamisen laturin maksimivirta liian alhainen",
+        "max_dynamic_offline_fallback_circuit_current_too_low": "Dynaamisen offline-piirin enimmäisvirta liian alhainen",
+        "max_charger_current_too_low": "Maksimi latausvirta liian alhainen",
+        "circuit_fuse_too_low": "Sulake liian pieni",
+        "waiting_in_queue": "Odotetaan jonossa",
+        "waiting_in_fully": "Odotetaan täynnä",
+        "illegal_grid_type": "Ei sallittu sähköverkko",
+        "no_current_request": "Ei sähkövirran pyyntöä",
+        "not_requesting_current": "Ei pyydä sähkövirtaa",
+        "charger_disabled": "Laturi pois käytöstä",
+        "pending_authorization": "Odottaa tunnistautumista",
+        "charger_in_error_state": "Laturi virhesuojatilassa",
+        "undefined": "Ei määritelty"
+      },
+      "common" : {
+        "click_for_group1": "Rajat",
+        "click_for_group2": "Tietoa",
+        "click_for_group3": "Konfiguraatio",
+        "start": "Käynnistä",
+        "continue": "Jatka",
+        "pause": "Tauolle",
+        "stop": "Pysäytä",
+        "resume": "Jatka",
+        "override": "Jatka aikataulusta huolimatta",
+        "update": "Päivitä ohjelmisto",
+        "reboot": "Käynnistä laturi uudelleen",
+        "not_available": "Laturi ei saatavilla",
+        "online": "Verkossa",
+        "voltage": "Jännite",
+        "power": "Teho",
+        "current": "Sähkövirta",
+        "charger_current": "Laturin sähkövirta",
+        "energy_per_hour": "Energiaa tunnissa",
+        "session_energy": "Energiaa sessiossa",
+        "lifetime_energy": "Energiaa koko ajalta",
+        "circuit_current": "Virtapiirin sähkövirta",
+        "dyn_charger_limit" : "Dyn Laturin raja",
+        "dyn_circuit_limit" : "Dyn Piirin raja",
+        "max_charger_limit" : "Max Laturin raja",
+        "max_circuit_limit" : "Max Piirin raja",
+        "output_limit" : "Sallittu sähkövirta",
+        "used_limit": "Käytetty raja",
+        "offline_circuit_limit" : "Offline piirin raja",
+        "enabled" : "Päällä",
+        "idle_current" : "Seisonta sähkövirta",
+        "cable_locked" : "Kaapeli lukittu",
+        "perm_cable_locked" : "Kaapeli lukittu pysyvästi",
+        "smart_charging" : "Älykäs lataus",
+        "cost_per_kwh" : "Hinta per kWh",
+        "update_available" : "Päivitys saatavilla",
+        "schedule": "Aikataulu"
+  
+      }
+    },
+  
+    "vwegolf": {
+      "status" : {
+        "home": "Kotona",
+        "away": "Poissa"
+      },
+      "substatus" : {
+        "ok": "Ok"
+      },
+      "common" : {
+        "click_for_group1": "Lukot",
+        "click_for_group2": "Tietoa",
+        "click_for_group3": "Konfiguraatio",
+        "soc": "%SOC"
+      }
+    },
+  
+  
+    "test": {
+      "status" : {
+        "disconnected": "Ei yhdistetty",
+        "awaiting_start": "Pysäytetty/odottaa aloitusta",
+        "charging": "Ladataan",
+        "completed": "Ladattu/odotetaan autoa",
+        "error": "Virhe",
+        "ready_to_charge": "Valmis ladattavaksi"
+      },
+      "substatus" : {
+       "ok": "Ok",
+        "pending_schedule": "Odottaa ajastusta",
+        "none": "Ei mitään",
+        "max_circuit_current_too_low": "Piirin maksimivirta liian alhainen",
+        "max_dynamic_circuit_current_too_low": "Dynaamisen piirin maksimivirta liian alhainen",
+        "max_dynamic_charger_current_too_low": "Dynaamisen laturin maksimivirta liian alhainen",
+        "max_dynamic_offline_fallback_circuit_current_too_low": "Dynaamisen offline-piirin enimmäisvirta liian alhainen",
+        "max_charger_current_too_low": "Maksimi latausvirta liian alhainen",
+        "circuit_fuse_too_low": "Sulake liian pieni",
+        "waiting_in_queue": "Odotetaan jonossa",
+        "waiting_in_fully": "Odotetaan täynnä",
+        "illegal_grid_type": "Ei sallittu sähköverkko",
+        "no_current_request": "Ei sähkövirran pyyntöä",
+        "not_requesting_current": "Ei pyydä sähkövirtaa",
+        "charger_disabled": "Laturi pois käytöstä",
+        "pending_authorization": "Odottaa tunnistautumista",
+        "charger_in_error_state": "Laturi virhesuojatilassa",
+        "undefined": "Ei määritelty"
+      },
+      "common" : {
+        "start": "Käynnistä",
+        "continue": "Jatka",
+        "pause": "Tauolle",
+        "stop": "Pysäytä",
+        "override": "Jatka aikataulusta huolimatta",
+        "reboot": "Käynnistä laturi uudelleen",
+        "not_available": "Laturi ei saatavilla",
+        "online": "Verkossa",
+        "voltage": "Jännite",
+        "power": "Teho",
+        "charger_current": "Laturin sähkövirta",
+        "energy_per_hour": "Energiaa tunnissa",
+        "lifetime_energy": "Energiaa koko ajalta",
+        "circuit_current": "Virtapiirin sähkövirta",
+        "schedule": "Aikataulu"
+      }
+  
+  
+    }
+  
+  }
+  
