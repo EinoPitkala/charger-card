@@ -98,6 +98,7 @@ This card supports translations. Please, help to add more translations and impro
 - Danish (by [dykandDK](https://github.com/dykandDK))
 - Catalan (by [gerardag](https://github.com/gerardag))
 - Dutch (by [posixx](https://github.com/posixx))
+- Finnish (by [EinoPitkala](https://github.com/EinoPitkala))
 - [_Your language?_][add-translation]
 
 ## Supported models
